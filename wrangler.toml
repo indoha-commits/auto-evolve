@@ -1,5 +1,5 @@
 name = "autoevolve-website"
-pages_build_output_dir = "dist"
+pages_build_output_dir = ".output/public"
 compatibility_date = "2025-02-11"
 
 [env.production.vars]
