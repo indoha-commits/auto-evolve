@@ -65,6 +65,7 @@ function Dashboard() {
           }).then((r) => r.json()).then((d) => {
             if (d.features) setFeatures(d.features);
             if (d.plan) setPlan(d.plan);
+            if (d.plan === "pro") { window.location.href = "https://app.autoevolve.site"; return; }
           }).catch(() => {});
         }
       });
